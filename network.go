@@ -16,8 +16,8 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/forkcloser/vz/internal/objc"
-	"github.com/forkcloser/vz/vmnet"
+	"github.com/forkcloser/go-vz/internal/objc"
+	"github.com/forkcloser/go-vz/vmnet"
 )
 
 // Network device attachment using network address translation (NAT) with outside networks.

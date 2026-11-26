@@ -14,7 +14,7 @@ import (
 	"runtime/cgo"
 	"unsafe"
 
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // LinuxRosettaAvailability represents an availability of Rosetta support for Linux binaries.

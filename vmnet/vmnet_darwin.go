@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/forkcloser/vz/internal/objc"
-	"github.com/forkcloser/vz/internal/osversion"
+	"github.com/forkcloser/go-vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/osversion"
 	"golang.org/x/sys/unix"
 )
 

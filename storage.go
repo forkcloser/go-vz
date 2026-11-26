@@ -16,7 +16,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 type baseStorageDeviceAttachment struct{}

@@ -2,7 +2,7 @@
 
 package vz
 
-import "github.com/forkcloser/vz/internal/osversion"
+import "github.com/forkcloser/go-vz/internal/osversion"
 
 var (
 	// ErrUnsupportedOSVersion is returned when calling a method which is only

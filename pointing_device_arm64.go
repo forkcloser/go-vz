@@ -10,7 +10,7 @@ package vz
 */
 import "C"
 import (
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // MacTrackpadConfiguration is a struct that defines the configuration

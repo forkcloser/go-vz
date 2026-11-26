@@ -9,7 +9,7 @@ package vz
 */
 import "C"
 import (
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // VirtioEntropyDeviceConfiguration is used to expose a source of entropy for the guest operating system’s random-number generator.

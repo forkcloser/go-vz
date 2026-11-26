@@ -13,7 +13,7 @@ import "C"
 import (
 	"os"
 
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // DirectorySharingDeviceConfiguration for a directory sharing device configuration.

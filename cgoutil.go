@@ -66,7 +66,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // pointer is a type alias which is able to use as embedded type and

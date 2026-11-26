@@ -12,7 +12,7 @@ package vz
 */
 import "C"
 import (
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // VirtualMachineConfiguration defines the configuration of a VirtualMachine.

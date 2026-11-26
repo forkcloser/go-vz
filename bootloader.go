@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // BootLoader is the interface of boot loader definitions.

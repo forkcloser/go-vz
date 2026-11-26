@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/forkcloser/vz/internal/osversion"
+	"github.com/forkcloser/go-vz/internal/osversion"
 )
 
 // TestBuildTargetKnowsEveryGatedVersion holds the version table to every

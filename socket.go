@@ -19,7 +19,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // SocketDeviceConfiguration for a socket device configuration.
