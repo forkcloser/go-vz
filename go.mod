@@ -1,4 +1,4 @@
-module github.com/forkcloser/vz
+module github.com/forkcloser/go-vz
 
 go 1.26.0
 

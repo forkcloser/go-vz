@@ -10,7 +10,7 @@ package vz
 */
 import "C"
 import (
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // MacOSBootLoader is a boot loader configuration for booting macOS on Apple Silicon.

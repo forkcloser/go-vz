@@ -11,7 +11,7 @@ import "C"
 import (
 	"os"
 
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // SerialPortAttachment interface for a serial port attachment.

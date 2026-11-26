@@ -15,7 +15,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // PlatformConfiguration is an interface for a platform configuration.

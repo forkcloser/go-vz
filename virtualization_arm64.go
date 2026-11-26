@@ -23,8 +23,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/forkcloser/vz/internal/objc"
-	"github.com/forkcloser/vz/internal/progress"
+	"github.com/forkcloser/go-vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/progress"
 )
 
 // WithStartUpFromMacOSRecovery is an option to specifiy whether to start up

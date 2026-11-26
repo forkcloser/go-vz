@@ -16,7 +16,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // VirtualMachineState represents execution state of the virtual machine.

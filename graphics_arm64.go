@@ -10,7 +10,7 @@ package vz
 */
 import "C"
 import (
-	"github.com/forkcloser/vz/internal/objc"
+	"github.com/forkcloser/go-vz/internal/objc"
 )
 
 // MacGraphicsDeviceConfiguration is a configuration for a display attached to a Mac graphics device.

@@ -8,7 +8,7 @@ package vz
 # include "virtualization_14_arm64.h"
 */
 import "C"
-import "github.com/forkcloser/vz/internal/objc"
+import "github.com/forkcloser/go-vz/internal/objc"
 
 // ValidateSaveRestoreSupport Determines whether the framework can save or restore the VM’s current configuration.
 //

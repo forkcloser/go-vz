@@ -203,7 +203,7 @@ Upstream merging PR #205 is not obviously imminent, so treat this as
 long-lived. If it does land in a release:
 
 1. rewrite the imports back — in ossein's own code (`pkg/vm/*.go`) replace
-   `github.com/forkcloser/vz` with
+   `github.com/forkcloser/go-vz` with
    `github.com/Code-Hex/vz/v3`
 2. `go get github.com/Code-Hex/vz/v3@<release>` and restore it to depguard's
    allowlist in `.lint-go.yaml`. Note upstream will bring back
@@ -230,7 +230,7 @@ then re-strip, or keep upstream whole if the surface has become wanted.
 - `.lint-go.yaml` excludes this tree from lint and formatting: it is held as
   close to upstream as possible so the diff stays readable
 - the vendored code's import paths were rewritten from
-  `github.com/Code-Hex/vz/v3/...` to `github.com/forkcloser/vz/...`;
+  `github.com/Code-Hex/vz/v3/...` to `github.com/forkcloser/go-vz/...`;
   its `go.mod`/`go.sum` were removed so it is part of ossein's module rather
   than a nested one. Its own dependency, `Code-Hex/go-infinity-channel`, is
   now a direct requirement of ossein

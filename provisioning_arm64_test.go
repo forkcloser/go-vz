@@ -6,7 +6,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/forkcloser/vz"
+	"github.com/forkcloser/go-vz"
 )
 
 // TestProvisioningGateOrder holds the order the option refuses in: the host's

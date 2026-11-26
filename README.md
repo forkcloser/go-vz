@@ -32,10 +32,13 @@ stands against upstream: [UPSTREAM.md](./UPSTREAM.md).
 
 ```go
 import (
-	"github.com/forkcloser/vz"
-	"github.com/forkcloser/vz/vmnet"
+	"github.com/forkcloser/go-vz"
+	"github.com/forkcloser/go-vz/vmnet"
 )
 ```
+
+Releases through v0.1.0 are `github.com/forkcloser/vz`, the repository's name
+until then.
 
 The binding links Virtualization.framework through cgo; a consumer's binary
 needs the `com.apple.security.virtualization` entitlement, and the vmnet
